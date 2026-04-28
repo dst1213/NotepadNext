@@ -1,0 +1,16 @@
+diff --git a/singleapplication.cpp b/singleapplication.cpp
+index 95c4d18..3e8fcb5 100644
+--- a/singleapplication.cpp
++++ b/singleapplication.cpp
+@@ -70,3 +69,0 @@ SingleApplication::SingleApplication( int &argc, char *argv[], bool allowSeconda
+-#if QT_VERSION >= QT_VERSION_CHECK(6, 6, 0)
+-    d->memory = new QSharedMemory( QNativeIpcKey( d->blockServerName ) );
+-#else
+@@ -74 +70,0 @@ SingleApplication::SingleApplication( int &argc, char *argv[], bool allowSeconda
+-#endif
+@@ -79,3 +74,0 @@ SingleApplication::SingleApplication( int &argc, char *argv[], bool allowSeconda
+-#if QT_VERSION >= QT_VERSION_CHECK(6, 6, 0)
+-    d->memory = new QSharedMemory( QNativeIpcKey( d->blockServerName ) );
+-#else
+@@ -83 +75,0 @@ SingleApplication::SingleApplication( int &argc, char *argv[], bool allowSeconda
+-#endif

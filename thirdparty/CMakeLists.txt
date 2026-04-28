@@ -22,6 +22,7 @@ CPMAddPackage(
     NAME SingleApplication
     GITHUB_REPOSITORY itay-grudev/SingleApplication
     GIT_TAG 494772e98cef0aa88124f154feb575cc60b08b38
+    PATCHES "${CMAKE_CURRENT_LIST_DIR}/patches/singleapplication-use-legacy-shared-memory-key.diff"
 )
 
 CPMAddPackage(
